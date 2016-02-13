@@ -59,6 +59,8 @@ The following screenshots were captured using the Pebble emulator tool on a MacB
 * Main menu
 The main menu ppears when the 511NY Pebble app is launched. Note that neither the traffic camera images nor the map feature are present in the Pebble Classic. The Pebble Classic has less than 24,000 bytes available for both the app code and data, and these two memory-intensive features could not be included.
 
+![Main menu - Weather](https://raw.githubusercontent.com/GORGES/511ny/master/images/menu-weather.png)
+
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
