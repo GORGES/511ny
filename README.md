@@ -18,7 +18,7 @@ The 511NY Pebble app was conceived and developed by:
 
 We live in Upstate New York, and routinely experience winter challenges. We are a father and son team and this is our first hackathon submission. Most of the programming was done by Matthew (a professional software coder) and Geoffrey was responsible for design feedback and the presentation video.
 
-## Development Allegory
+## Development Timeline
 
 Based on the #HackFrost goals, we explored ideas for how software could help us Upstate New Yorkers during winter. Road conditions came to mind, so we searched online for web services that could be used to identify road hazards.
 
@@ -26,7 +26,7 @@ Our search led us to the website [http://511ny.org](http://511ny.org), which is 
 
 We submitted a request for official access to the 511ny.org web services, and within a week received a valid authentication key. This key allowed us to query a list of all current and scheduled traffic hazards, plus retrieve a list of all traffic cameras. 
 
-Other features that were added are local weather conditions and local maps. 
+Other features that were added are local weather conditions and local maps.
 
 ## External Data Sources
 
