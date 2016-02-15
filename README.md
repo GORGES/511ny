@@ -38,6 +38,8 @@ Three external data sources are used for the 511NY Pebble app. Free access keys 
 
 3. [Google Maps](https://www.google.com/maps): Returns a map image of the roads based on a specific latitude and longitude. Map images may depict closer or farther away roads depending on a specified zoom level.
 
+To recompile and install the 511NY for Pebble app, obtain these three free developer keys and place them into the appropriate statements in the file src/js/pebble-js-app.js.
+
 ## Third-party libraries
 
 These third-party JavaScript libraries are used in the 511NY Pebble app for image decoding and encoding. All libraries are available within GitHub repositories.
@@ -169,6 +171,16 @@ The final menu setting displays information about the 511NY Pebble app.
 Here is a demonstration of the 511NY Pebble app on a Pebble Time watch:
 
 [![511NY for Pebble](https://raw.githubusercontent.com/GORGES/511ny/master/images/video.png)](https://youtu.be/RybO-trxNzQ "511NY for Pebble")
+
+## Installing on a Pebble
+
+The binary code is available in the repository at build/511ny.pbw. There are several methods for installing this code onto a Pebble watch:
+
+* Install the Pebble SDK, compile the code, and type "pebble install --phone IP_ADDRESS_OF_MY_PHONE"
+
+* Use the [CloudPebble online tool](https://cloudpebble.net) to install the compiled code.
+
+* Navigate to [https://github.com/GORGES/511ny/raw/master/build/511ny.pbw](https://github.com/GORGES/511ny/raw/master/build/511ny.pbw) in your iOS or Android web browser, and follow the screen instructions to load the app onto your Pebble.
 
 ## 511NY for Pebble vis-a-vis #HackFrost Goals
 
